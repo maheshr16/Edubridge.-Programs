@@ -1,19 +1,18 @@
-class Rectangle {
-    int length;
-    int breadth;
-
+class rectangle{
+    int lenght;
+    int breath;
 
     void calculateArea() {
-        int area = length * breadth;
-        System.out.println("Area of Rectangle = " + area);
+        int Area = lenght * breath;
+
+        System.out.println("Area of rectangle =" + Area);
     }
 
-    public static void main(String[] args) {
-        Rectangle r = new Rectangle();
+        public static void main(String[] args){
+            rectangle r = new rectangle();
+            r.lenght = 10;
+            r.breath = 5;
+            r.calculateArea();
+        }
 
-        r.length = 10;
-        r.breadth = 5;
-
-        r.calculateArea();
-    }
 }
